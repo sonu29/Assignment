@@ -1,0 +1,28 @@
+please find the steps to create a basic script.
+
+we need to create .sh file and have to give the commands which we need to execute.
+to execute the .sh file we have to change give execute permision to run that script
+please find the commands below
+
+vi script.sh 
+above command will open the editor and we have to paste below commands 
+
+mkdir Test
+cd Test
+touch a{1..4}.txt
+echo "successfull"
+
+and after pasting this we have save it have to come out of the editor
+
+then we have to check weather the file has execution permission or not if not we have to give by below command
+chmod +x script.sh
+
+after giving permission we have to execute the file with below command 
+./script.sh
+
+and after the execution it will create Test directory and inside the Test directory a1.txt , a2.txt , a3.txt and a4.txt file will be created.
+
+
+
+
+
